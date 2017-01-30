@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from website.apps.bookrec import views as bookrec_views
+from website.app.bookrec import views as bookrec_views
 
 urlpatterns = [
     url(r'^/', bookrec_views.index),
